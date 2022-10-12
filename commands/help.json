@@ -1,0 +1,64 @@
+[
+    {
+        "cmd": "Test",
+        "info": "Returns \"Success\" if the bot is online"
+    },
+    {
+        "cmd": "roulette",
+        "info": "Returns a `win` or `loss` message based on `<probability>`"
+    },
+    {
+        "cmd": "amadmin",
+        "info": "Checks if user has the `administrator"
+    },
+    {
+        "cmd": "icon",
+        "info": "Returns image of the bot icon"
+    },
+    {
+        "cmd": "join",
+        "info": "Joins a voice channel if the user is in one"
+    },
+    {
+        "cmd": "leave",
+        "info": "Leaves a voice channel if the user is in one"
+    },
+    {
+        "cmd": "play",
+        "info": "Searches YouTube for `song`\nWill play the song if queue is empty\n Will add to queue otherwise"
+    },
+    {
+        "cmd": "skip",
+        "info": "Skips the current song in the queue"
+    },
+    {
+        "cmd": "skip <int>",
+        "info": "Skips to the `<int>`th position of queue"
+    },
+    {
+        "cmd": "pause",
+        "info": "Pauses the song"
+    },
+    {
+        "cmd": "resume",
+        "info": "Resumes playing the song"
+    },
+    {
+        "cmd": "queue",
+        "info": "Returns an embed with a list of songs"
+    },
+    {
+        "cmd": "songinfo",
+        "info": "TBD"
+    },
+    
+    {
+        "cmd": "remove",
+        "info": "Removes the song in `<int>`th position of the queue"
+    },
+    {
+        "cmd": "becomeperson",
+        "info": "Will add the role `person` to the user"
+    }
+    
+]
